@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+}
+
+html body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  margin: 0;
+  font-family: lato, sans-serif;
+  color: #222;
+  font-size: 0.9em;
+}
+
+html body main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body main aside {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40px;
+          flex: 0 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f2f2f2;
+}
+
+html body main aside i.fa,
+html body main aside i.fab,
+html body main aside i.fas {
+  font-size: 2em;
+  margin: 50px;
+}
+
+html body main section.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 30px;
+}
+
+html body main section.content .music-head {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 280px;
+          flex: 0 0 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  background-color: #4e4e4e;
+}
+
+html body main section.content img {
+  border: 2px solid;
+}
+
+html body main section.content .catty-music {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 50px;
+}
+
+html body main section.content .catty-music div:nth-child(1) {
+  margin-bottom: auto;
+}
+
+html body main section.content .catty-music div:nth-child(2) {
+  margin-top: 0;
+}
+
+html body main section.content .cathy-musi div:nth-child(2) i.fa {
+  font-size: 0.9em;
+  padding: 0 0.7em;
+  font-weight: 300;
+}
+
+html body main section.content div:nth-child(1) p:first-child {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+html body main section.content div:nth-child(1) p:not(:first-child) {
+  font-size: 0.9em;
+  margin: 2px  0;
+}
+
+html body main section.content .music-list {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  list-style-type: none;
+  padding: 5px 10px 0px;
+}
+
+html body main section.content .music-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  min-height: 50px;
+}
+
+html body main section.content .music-list li p {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+}
+
+html body main section.content .music-list li span.catty-cloud {
+  border: 1px solid black;
+  font-size: 0.6em;
+  padding: 3px;
+}
+
+html body main section.content .music-list li:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+html body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px;
+  padding: 10px;
+  color: #b9b8b8;
+  background-color: rgba(61, 100, 158, 0.9);
+}
+
+html body ul {
+  list-style-type: none;
+}
+
+html body .footerpt1 {
+  position: absolute;
+  left: 10rem;
+  bottom: 11rem;
+  font-size: 1.5rem;
+  line-height: 15px;
+}
+/*# sourceMappingURL=style.css.map */
